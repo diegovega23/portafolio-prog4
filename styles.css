@@ -54,7 +54,6 @@ li{
 }
 
  /*todo foother*/
-/*elimina margenes de footer*/
 * {
     margin: 0;
     padding: 0;
@@ -62,8 +61,9 @@ li{
     font-family: sans-serif;
   }
   
-  /*ubica el footer en el fondo de la pagina */
   body {
+    background-image: url(fondo3.jpg);
+    background-position: center;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -170,7 +170,7 @@ h1{
             color: rgb(17, 118, 234);
             position: absolute;
             top: 15%;
-            left: 53%;
+            left: 50%;
             transform: translate(-50%, -50%); 
             padding: 12px 47px;
 }
@@ -178,11 +178,17 @@ h1{
 .parrafo {
     font-family: "Oswald", serif;
         position: fixed;
-        top: 170px; /* Distancia desde la parte superior */
-        left: 40%; /* Distancia desde la derecha */
-        width: 400px; /* Ancho del párrafo */
-        padding: 20px; /* Espacio interno */
-        background-color: #000000; /* Fondo para visualizar mejor */
+        top: 170px; 
+        left: 37%; 
+        width: 400px; 
+        padding: 20px; 
+        background-color: #000000; 
         color: rgb(255, 255, 255);
     
 }
+
+
+
+
+
+
