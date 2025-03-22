@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/*fuente importada*/
+.fuente{
+    font-family: "Oswald", serif;
+}
+
+
+/*cambia el color cuando se pone el mouse arriba*/
+li a:hover{
+    background-color:rgb(17, 118, 234);
+    color: rgb(0, 0, 0);
+}
+
+/*quita la separacion del margen superior*/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+
+/* se usa para los botones del header */
+li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 30px;
+}
+
+/*color del header y lista para los botones */
+ul{
+    list-style-type:none;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    padding: 0; 
+}
+
+/*acomoda los header en una linea*/
+li{
+    float: left;
+}
+
+/*estructura de los textos*/
+.texto{
+    position: relative;
+    top: 80px;
+    margin-right: 90px;
+    font-family: "Oswald", serif;
+}
+
+ /*todo foother*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-image: url(../imagenes/fondo3.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+  }
+
+  /*da color al footer y lo unica en los lados */
+  .footer {
+    position: relative;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    min-height: 100px;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 5px 5px;
+    flex-wrap: wrap;
+  }
+  
+  
+  
+  .icon {
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+  }
+  /*cuando el mouse esta arrriba mueve un poco el icono*/
+  .icon:hover {
+    transform: translateY(-10px);
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .menu-elem {
+    list-style: none;
+  }
+ 
+  
+  .menu-icon:hover {
+    opacity: 1;
+  }
+  
+  /*textos para header y footer */
+  .text {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .derechos {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+ 
+  /*ajusta la imagen principal*/
+#imagenizquierda {
+    width: 300px; 
+    height: 200px; 
+    position: absolute;
+    top: 50%;
+    left: 0; 
+    transform: translate(0%, -70%); 
+    height: auto; 
+}
+
+#imagenderecha {
+    width: 300px; 
+    height: 200px; 
+    position: absolute;
+    top: 50%;
+    right: 0; 
+    transform: translate(0%, -70%); 
+    height: auto; 
+}
+
+/*texto principal*/
+h1{
+    font-family: "Oswald", serif;
+            font-size: 1cm;
+            color: rgb(17, 118, 234);
+            position: absolute;
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%, -50%); 
+            padding: 12px 47px;
+}
+/*parrafos*/
+.parrafo {
+    font-family: "Oswald", serif;
+        position: fixed;
+        top: 170px; 
+        left: 37%; 
+        width: 400px; 
+        padding: 20px; 
+        background-color: #000000; 
+        color: rgb(255, 255, 255);
+    
+}
+
+
+
+
+
+

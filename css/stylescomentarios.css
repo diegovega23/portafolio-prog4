@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
+/*todo el header*/
 /*fuente importada*/
 .fuente{
     font-family: "Oswald", serif;
 }
+
 
 
 /*cambia el color cuando se pone el mouse arriba*/
@@ -45,15 +47,8 @@ li{
     float: left;
 }
 
-/*estructura de los textos*/
-.texto{
-    position: relative;
-    top: 80px;
-    margin-right: 90px;
-    font-family: "Oswald", serif;
-}
 
- /*todo foother*/
+/*todo foother*/
 * {
     margin: 0;
     padding: 0;
@@ -62,13 +57,12 @@ li{
   }
   
   body {
-    background-image: url(fondo3.jpg);
     background-position: center;
-    display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     min-height: 100vh;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
+  color: rgb(0, 0, 0); 
   }
 
   /*da color al footer y lo unica en los lados */
@@ -141,54 +135,20 @@ li{
     margin-bottom: 10px;
     font-size: 20px;
   }
+
+.formdiseno input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.form-control-comment {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+  resize: vertical;
+  min-height: 100px;
+}
  
-  /*ajusta la imagen principal*/
-#imagenizquierda {
-    width: 300px; 
-    height: 200px; 
-    position: absolute;
-    top: 50%;
-    left: 0; 
-    transform: translate(0%, -70%); 
-    height: auto; 
-}
-
-#imagenderecha {
-    width: 300px; 
-    height: 200px; 
-    position: absolute;
-    top: 50%;
-    right: 0; 
-    transform: translate(0%, -70%); 
-    height: auto; 
-}
-
-/*texto principal*/
-h1{
-    font-family: "Oswald", serif;
-            font-size: 1cm;
-            color: rgb(17, 118, 234);
-            position: absolute;
-            top: 15%;
-            left: 50%;
-            transform: translate(-50%, -50%); 
-            padding: 12px 47px;
-}
-/*parrafos*/
-.parrafo {
-    font-family: "Oswald", serif;
-        position: fixed;
-        top: 170px; 
-        left: 37%; 
-        width: 400px; 
-        padding: 20px; 
-        background-color: #000000; 
-        color: rgb(255, 255, 255);
-    
-}
-
-
-
-
-
-
